@@ -41,22 +41,3 @@
 .recent-post-year:first-of-type {
     margin-top: 0;
 }
-
-/* 文章卡片阅读次数 */
-.article-meta-wrap .post-meta-pv-card {
-    padding: 0 8px;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    font-size: .7rem;
-    opacity: .6;
-    transition: .3s;
-}
-
-.article-meta-wrap .post-meta-pv-card i {
-    font-size: .7rem;
-}
-
-.article-meta-wrap .post-meta-pv-card:hover {
-    opacity: 1;
-}

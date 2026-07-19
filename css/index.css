@@ -9437,10 +9437,8 @@ span.tagsPageCount {
   top: 0;
   left: 0;
   padding: 4px 8px;
-  background-color: var(--efu-theme);
-  -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  color: var(--efu-white);
+  background-color: var(--efu-card-bg);
+  color: var(--efu-fontcolor);
   z-index: 1;
   border-radius: 0 0 12px 0;
   -webkit-transition: 0.3s;
@@ -9450,6 +9448,9 @@ span.tagsPageCount {
   transition: 0.3s;
   font-size: 0.6rem;
   overflow: hidden;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
 }
 .article-container .site-card-tag .light {
   cursor: pointer;
@@ -9469,10 +9470,12 @@ span.tagsPageCount {
   animation: light_tag 4s both infinite;
 }
 .article-container .site-card-tag.vip {
-  background-color: var(--efu-main);
+  background-color: var(--efu-card-bg);
+  color: var(--efu-theme);
 }
 .article-container .site-card-tag.speed {
-  background-color: var(--efu-secondtext);
+  background-color: var(--efu-card-bg);
+  color: var(--efu-secondtext);
 }
 .article-container .site-card-group {
   padding: 20px 0;
