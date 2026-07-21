@@ -1,4 +1,4 @@
-.article-sort-item-img {
+﻿.article-sort-item-img {
     display: none !important;
 }
 
@@ -40,9 +40,4 @@
 
 .recent-post-year:first-of-type {
     margin-top: 0;
-}
-
-/* 选中文字颜色 - 覆写默认亮黄色 */
-[data-theme=dark] ::selection {
-    background: #c8960a !important;
 }
